@@ -90,14 +90,12 @@ class HyperionherbsHelper():
     def start(self):
         items_data = []
         items = self.getItems()
-        print("Items : ",len(items))
         for item in items:
             data = self.getItemDtail(item)
             if len(data):
                 items_data.append(data)
-             
-            print("#"*100)
-        print("Total : ",len(items_data))
+        
+        # Going to write csv file if data here for writing.
         if len(items_data):
             self.writeCSVFile(items_data)
 
