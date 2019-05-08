@@ -1,5 +1,9 @@
-This is Python Program which perform the following automatic tasks:
-- The main objective of this scraper is to scraper web data by using selenium and BeautifulSoup.
-- In this, we are getting blogs content from this link (https://www.hyperionherbs.com/blog/).
-- Scraper will getting the nested linking pages are getting data from all of thes blogs.
+# Python Scraper
+These are the all scrapers which are created by me for my client. All the scripts are written in Python, Selenium, requests, urllib, BeautifulSoup etc. Following is the list of scrapers : 
+
+- twitter.py
+- flipkartscraper.py
+- fossilscraper.py
+- trading_economics_scraper.py
+- video-streaming.py
 
