@@ -1,11 +1,8 @@
 # -*- coding: utf-8 -*-
-import csv
-import time
+
 from selenium import webdriver
 import requests
-import sys
-import urllib.request
-import re
+import sys, csv, time
 from bs4 import BeautifulSoup
 
 class BosmeticHelper():
